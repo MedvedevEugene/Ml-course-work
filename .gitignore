@@ -1,0 +1,44 @@
+# Конфиденциальные данные
+config.py
+.env
+*.env
+
+# Данные (большие файлы)
+data/*.csv
+data/*.json
+data/*.xlsx
+# Но оставляем визуализации
+!data/visualizations/
+
+# Логи
+*.log
+*.txt
+!requirements.txt
+additional_data_log.txt
+collection_log.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
